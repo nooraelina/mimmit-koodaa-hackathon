@@ -26,12 +26,12 @@ function Ylapalkki () {
             <Navigation.Row>
                 <Navigation.Item
                 active
-                href="#"
+                href="/"
                 label="Link"
                 onClick={function noRefCheck(){}}
                 />
                 <Navigation.Item
-                href="#"
+                href="/test"
                 label="Link"
                 onClick={function noRefCheck(){}}
                 />
