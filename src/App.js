@@ -11,7 +11,7 @@ function App() {
       <Ylapalkki />
 
         <Container >
-          <div style={{ minHeight:'75vh' }}></div>
+          <div style={{ minHeight:'75vh' }}>test</div>
         </Container>
 
       <Alapalkki />
