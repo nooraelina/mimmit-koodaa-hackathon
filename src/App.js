@@ -5,6 +5,7 @@ import { Container, ImageWithCard } from 'hds-react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import sittingGuy from './images/IMG_7674.jpg';
 import Yhteystiedot from './components/pages/Yhteystiedot';
+import Etusivu from './components/pages/Etusivu';
 
 function App() {
   return (
@@ -19,10 +20,7 @@ function App() {
             </ImageWithCard>
           </Route>
           <Route path="/" exact>
-            <ImageWithCard cardLayout="hover" fullWidth src={sittingGuy}>
-            <h1>contentheaderr</h1>
-            contenttii
-            </ImageWithCard>
+            <Etusivu />
           </Route>
         </Switch>
 

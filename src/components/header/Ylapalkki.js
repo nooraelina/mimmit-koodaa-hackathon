@@ -19,62 +19,35 @@ function Ylapalkki () {
                 '--navigation-row-color': 'var(--color-black-90)',
                 '--navigation-row-focus-outline-color': 'var(--color-coat-of-arms)'
             }}
-            title="Helsinki Digitaidot testiin"
-            titleAriaLabel="Helsinki: Digitaitojen testaus"
-            titleUrl="https://hel.fi"
+            title="Helsinki Digitreeni"
+            titleAriaLabel="Helsinki: Digitreeni"
+            titleUrl="/"
             >
             <Navigation.Row variant='inline'>
                 <Navigation.Item
-                active
+                
                 href="/"
-                label="Link"
+                label="Etusivu"
                 onClick={function noRefCheck(){}}
                 />
                 <Navigation.Item
                 href="/yhteystiedot"
-                label="Link"
+                label="Yhteystiedot"
                 onClick={function noRefCheck(){}}
                 />
                 <Navigation.Item
                 href="#"
-                label="Link"
+                label="DummyLink"
                 onClick={function noRefCheck(){}}
                 />
-                <Navigation.Item
-                href="#"
-                label="Link"
-                onClick={function noRefCheck(){}}
-                />
-                <Navigation.Dropdown label="Dropdown">
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                />
-                </Navigation.Dropdown>
             </Navigation.Row>
             <Navigation.Actions>
                 <Navigation.Search
-                searchLabel="Search"
-                searchPlaceholder="Search page"
+                searchLabel="Haku"
+                searchPlaceholder="Hae sivua"
                 />
                 <Navigation.User
-                label="Sign in"
+                label="Kirjaudu sisään"
                 userName="John Doe"
                 >
                 <Navigation.Item

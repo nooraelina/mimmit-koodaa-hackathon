@@ -1,8 +1,8 @@
 function Yhteystiedot () {
     return (
         <>
-        <h1>contentheaderr</h1>
-        Tämä on test
+        <h1>Yhteystiedot</h1>
+        Paljon yhteystietoja ja puhelinnumeroja. 0401234567.
         </>
     )
 }
