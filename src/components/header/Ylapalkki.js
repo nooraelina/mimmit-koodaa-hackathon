@@ -23,7 +23,7 @@ function Ylapalkki () {
             titleAriaLabel="Helsinki: Digitaitojen testaus"
             titleUrl="https://hel.fi"
             >
-            <Navigation.Row>
+            <Navigation.Row variant='inline'>
                 <Navigation.Item
                 active
                 href="/"
@@ -31,7 +31,7 @@ function Ylapalkki () {
                 onClick={function noRefCheck(){}}
                 />
                 <Navigation.Item
-                href="/test"
+                href="/yhteystiedot"
                 label="Link"
                 onClick={function noRefCheck(){}}
                 />
