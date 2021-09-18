@@ -26,7 +26,7 @@ function Ylapalkki () {
             <Navigation.Row variant='inline'>
                 <Navigation.Item
                 active
-                href="/"
+                href="/digitesti"
                 label="Link"
                 onClick={function noRefCheck(){}}
                 />
