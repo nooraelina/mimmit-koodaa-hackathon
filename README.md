@@ -1,5 +1,6 @@
 # Digitraining
-### :computer: A project created during Mimmit koodaa -hackathon! `17.9.-19.9.2021` (with lots of :coffee:)
+### :computer: A project created during Mimmit koodaa -hackathon! (with lots of :coffee:)
+`17.9.-19.9.2021`
 ## Purpose of the app?
 A way to evaluate digital skills that will benefit both the job seeker and those providing services to them.
 
