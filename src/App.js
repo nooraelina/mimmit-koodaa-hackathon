@@ -10,23 +10,23 @@ import Etusivu from './components/pages/Etusivu';
 function App() {
   return (
     <>
-    <Router >
-      <Ylapalkki />
-        <Container style={{ minHeight:'75vh', minWidth:'100%' }}>
-        <Switch >
-          <Route path="/yhteystiedot">
-            <ImageWithCard cardLayout="hover" fullWidth src={sittingGuy}>
-              <Yhteystiedot />
-            </ImageWithCard>
-          </Route>
-          <Route path="/" exact>
-            <Etusivu />
-          </Route>
-        </Switch>
+      <Router >
+        <Ylapalkki />
+        <Container style={{ minHeight: '80vh', minWidth: '100%' }}>
+          <Switch >
+            <Route path="/yhteystiedot">
+              <ImageWithCard cardLayout="hover" fullWidth src={sittingGuy}>
+                <Yhteystiedot />
+              </ImageWithCard>
+            </Route>
+            <Route path="/" exact>
+              <Etusivu />
+            </Route>
+          </Switch>
 
-      </Container>
-      <Alapalkki />
-    </Router>
+        </Container>
+        <Alapalkki />
+      </Router>
     </>
   );
 }
