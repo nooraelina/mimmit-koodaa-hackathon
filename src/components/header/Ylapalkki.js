@@ -23,15 +23,16 @@ function Ylapalkki() {
             titleAriaLabel="Helsinki: Digitreeni"
             titleUrl="/"
         >
-            <Navigation.Row variant='inline'>
+            <Navigation.Row variant='inline'> 
                 <Navigation.Item
                     active
-                    href="/digitesti"
-                    label="Link"
-
                     href="/"
                     label="Home"
                     onClick={function noRefCheck() { }}
+                />
+                <Navigation.Item
+                    href="/digitesti"
+                    label="Link"
                 />
                 <Navigation.Item
                     href="/yhteystiedot"

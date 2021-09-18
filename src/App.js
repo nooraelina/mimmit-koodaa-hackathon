@@ -17,6 +17,9 @@ function App() {
             <Route path="/yhteystiedot">
               <Yhteystiedot />
             </Route>
+            <Route path="/digitesti">
+              <Digitesti />
+            </Route>
             <Route path="/" exact>
               <Etusivu />
             </Route>

@@ -1,7 +1,7 @@
-import { Card, Button, ImageWithCard } from "hds-react";
-import React, { useState } from 'react';
-import GuyWithLaptop from './../../images/Man-studying-with-laptop.jpg';
-import { useHistory } from 'react-router-dom';
+import { Card, Button } from "hds-react";
+import React from 'react';
+//import GuyWithLaptop from './../../images/Man-studying-with-laptop.jpg';
+//import { useHistory } from 'react-router-dom';
 
 function Digitesti() {
   return (
