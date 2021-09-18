@@ -4,6 +4,7 @@ import Alapalkki from './components/footer/Alapalkki.js';
 import { Container } from 'hds-react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Yhteystiedot from './components/pages/Yhteystiedot';
+import Digitesti from './components/pages/Digitesti';
 import Etusivu from './components/pages/Etusivu';
 
 function App() {
@@ -16,7 +17,7 @@ function App() {
             <Route path="/yhteystiedot">
               <Yhteystiedot />
             </Route>
-            <Route path="/" exact> 
+            <Route path="/" exact>
               <Etusivu />
             </Route>
           </Switch>
