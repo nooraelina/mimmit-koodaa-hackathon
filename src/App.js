@@ -11,7 +11,7 @@ function App() {
     <>
       <Router >
         <Ylapalkki />
-        <Container style={{ minHeight: '80vh', minWidth: '100%' }}>
+        <Container style={{ minHeight: '85vh', minWidth: '100%' }}>
           <Switch >
             <Route path="/yhteystiedot">
               <Yhteystiedot />
