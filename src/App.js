@@ -1,9 +1,8 @@
 import './App.css';
 import Ylapalkki from './components/header/Ylapalkki.js';
 import Alapalkki from './components/footer/Alapalkki.js';
-import { Container, ImageWithCard } from 'hds-react';
+import { Container } from 'hds-react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import sittingGuy from './images/IMG_7674.jpg';
 import Yhteystiedot from './components/pages/Yhteystiedot';
 import Etusivu from './components/pages/Etusivu';
 
@@ -15,11 +14,9 @@ function App() {
         <Container style={{ minHeight: '80vh', minWidth: '100%' }}>
           <Switch >
             <Route path="/yhteystiedot">
-              <ImageWithCard cardLayout="hover" fullWidth src={sittingGuy}>
-                <Yhteystiedot />
-              </ImageWithCard>
+              <Yhteystiedot />
             </Route>
-            <Route path="/" exact>
+            <Route path="/" exact> 
               <Etusivu />
             </Route>
           </Switch>
