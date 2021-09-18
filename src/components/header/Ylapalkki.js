@@ -27,27 +27,27 @@ function Ylapalkki () {
                 <Navigation.Item
                 
                 href="/"
-                label="Etusivu"
+                label="Home"
                 onClick={function noRefCheck(){}}
                 />
                 <Navigation.Item
                 href="/yhteystiedot"
-                label="Yhteystiedot"
+                label="Contact"
                 onClick={function noRefCheck(){}}
                 />
                 <Navigation.Item
                 href="#"
-                label="DummyLink"
+                label="Help"
                 onClick={function noRefCheck(){}}
                 />
             </Navigation.Row>
             <Navigation.Actions>
                 <Navigation.Search
-                searchLabel="Haku"
-                searchPlaceholder="Hae sivua"
+                searchLabel="Search"
+                searchPlaceholder="Search..."
                 />
                 <Navigation.User
-                label="Kirjaudu sisään"
+                label="Login"
                 userName="John Doe"
                 >
                 <Navigation.Item
@@ -80,18 +80,6 @@ function Ylapalkki () {
                     href="#"
                     label="In English"
                     lang="en"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="En français"
-                    lang="fr"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Auf deutsch"
-                    lang="de"
                     onClick={function noRefCheck(){}}
                 />
                 <Navigation.Item
