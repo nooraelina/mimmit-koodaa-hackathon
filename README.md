@@ -1,6 +1,12 @@
 # Digitraining
 ### :computer: A project created during Mimmit koodaa -hackathon! (with lots of :coffee:)
 `17.9.-19.9.2021`
+## Challenge
+This challenge was offered by Helsinki City 
+> In this hackathon, your task is to offer a solution to how to enable testing of an individual applicant’s digital skills and to create indicators that include even the most basic or even non-existent skill levels. The solution should be able to profile the applicant’s skill level, for Helsinki to be able to offer targeted education to improve the skills.
+### Expected outcome
+>The solution should be for example a concept, application or a service mockup. It should be simple, easy to use and to enable use with own mobile device or public employment service computers or public computers in the libraries. The solution should take into account that filling a web questionnaire or form, or building a CV are very challenging tasks without digital skills. Helsinki is also interested in a gamified solution.
+
 ## Purpose of the app?
 A way to evaluate digital skills that will benefit both the job seeker and those providing services to them.
 
