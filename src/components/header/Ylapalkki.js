@@ -63,7 +63,7 @@ function Ylapalkki () {
                     variant="supplementary"
                 />
                 </Navigation.User>
-                <Navigation.LanguageSelector label="FI">
+                <Navigation.LanguageSelector label="EN">
                 <Navigation.Item
                     href="#"
                     label="Suomeksi"

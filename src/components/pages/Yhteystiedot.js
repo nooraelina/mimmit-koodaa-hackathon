@@ -1,8 +1,19 @@
-function Yhteystiedot () {
+import { ImageWithCard, Link } from 'hds-react';
+import sittingGuy from '../../images/IMG_7674.jpg';
+
+function Yhteystiedot() {
     return (
         <>
-        <h1>Yhteystiedot</h1>
-        Paljon yhteystietoja ja puhelinnumeroja. 0401234567.
+            <ImageWithCard cardLayout="hover" src={sittingGuy}>
+                <h1>Contact</h1>
+                Useful information and links.<br />
+                <br />
+                <Link external
+                    openInExternalDomainAriaLabel="Opens a different website" href="https://digirasti.fi/" size="M">
+                    Digirasti
+                </Link>
+                <br />
+            </ImageWithCard>
         </>
     )
 }
