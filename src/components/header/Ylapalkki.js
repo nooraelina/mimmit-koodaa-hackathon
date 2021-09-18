@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navigation } from 'hds-react';
 
-function Ylapalkki () {
+function Ylapalkki() {
     return (
         <Navigation
             logoLanguage="fi"
@@ -19,114 +19,78 @@ function Ylapalkki () {
                 '--navigation-row-color': 'var(--color-black-90)',
                 '--navigation-row-focus-outline-color': 'var(--color-coat-of-arms)'
             }}
-            title="Helsinki Digitaidot testiin"
-            titleAriaLabel="Helsinki: Digitaitojen testaus"
-            titleUrl="https://hel.fi"
-            >
+            title="Helsinki Digitreeni"
+            titleAriaLabel="Helsinki: Digitreeni"
+            titleUrl="/"
+        >
             <Navigation.Row variant='inline'>
                 <Navigation.Item
-                active
-                href="/digitesti"
-                label="Link"
-                onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                href="/yhteystiedot"
-                label="Link"
-                onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                href="#"
-                label="Link"
-                onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                href="#"
-                label="Link"
-                onClick={function noRefCheck(){}}
-                />
-                <Navigation.Dropdown label="Dropdown">
-                <Navigation.Item
-                    href="#"
+                    active
+                    href="/digitesti"
                     label="Link"
-                    onClick={function noRefCheck(){}}
+
+                    href="/"
+                    label="Home"
+                    onClick={function noRefCheck() { }}
+                />
+                <Navigation.Item
+                    href="/yhteystiedot"
+                    label="Contact"
+                    onClick={function noRefCheck() { }}
                 />
                 <Navigation.Item
                     href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
+                    label="Help"
+                    onClick={function noRefCheck() { }}
                 />
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                />
-                </Navigation.Dropdown>
             </Navigation.Row>
             <Navigation.Actions>
                 <Navigation.Search
-                searchLabel="Search"
-                searchPlaceholder="Search page"
+                    searchLabel="Search"
+                    searchPlaceholder="Search..."
                 />
                 <Navigation.User
-                label="Sign in"
-                userName="John Doe"
+                    label="Login"
+                    userName="John Doe"
                 >
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                    variant="secondary"
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Sign out"
-                    onClick={function noRefCheck(){}}
-                    variant="supplementary"
-                />
+                    <Navigation.Item
+                        href="#"
+                        label="Link"
+                        onClick={function noRefCheck() { }}
+                        variant="secondary"
+                    />
+                    <Navigation.Item
+                        href="#"
+                        label="Sign out"
+                        onClick={function noRefCheck() { }}
+                        variant="supplementary"
+                    />
                 </Navigation.User>
-                <Navigation.LanguageSelector label="FI">
-                <Navigation.Item
-                    href="#"
-                    label="Suomeksi"
-                    lang="fi"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="På svenska"
-                    lang="sv"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="In English"
-                    lang="en"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="En français"
-                    lang="fr"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Auf deutsch"
-                    lang="de"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="По-русски"
-                    lang="ru"
-                    onClick={function noRefCheck(){}}
-                />
+                <Navigation.LanguageSelector label="EN">
+                    <Navigation.Item
+                        href="#"
+                        label="Suomeksi"
+                        lang="fi"
+                        onClick={function noRefCheck() { }}
+                    />
+                    <Navigation.Item
+                        href="#"
+                        label="På svenska"
+                        lang="sv"
+                        onClick={function noRefCheck() { }}
+                    />
+                    <Navigation.Item
+                        href="#"
+                        label="In English"
+                        lang="en"
+                        onClick={function noRefCheck() { }}
+                    />
+                    <Navigation.Item
+                        href="#"
+                        label="По-русски"
+                        lang="ru"
+                        onClick={function noRefCheck() { }}
+                    />
                 </Navigation.LanguageSelector>
             </Navigation.Actions>
         </Navigation>

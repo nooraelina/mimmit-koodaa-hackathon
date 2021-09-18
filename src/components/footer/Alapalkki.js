@@ -11,26 +11,11 @@ function Alapalkki () {
             '--footer-divider-color': 'var(--color-black-20)',
             '--footer-focus-outline-color': 'var(--color-black-20)'
         }}
-        title="Helsinki Design System">
+        title="Helsinki Digitreeni">
             <Footer.Navigation navigationAriaLabel="Footer navigation items">
                 <Footer.Item
                 href="https://google.com"
                 label="Etusivu"
-                onClick={function noRefCheck(){}}
-                />
-                <Footer.Item
-                href="https://google.com"
-                label="Nav item"
-                onClick={function noRefCheck(){}}
-                />
-                <Footer.Item
-                href="https://google.com"
-                label="Nav item"
-                onClick={function noRefCheck(){}}
-                />
-                <Footer.Item
-                href="https://google.com"
-                label="Nav item"
                 onClick={function noRefCheck(){}}
                 />
                 <Footer.Item

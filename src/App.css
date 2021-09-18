@@ -37,6 +37,16 @@
   }
 }
 
-.testNavCards {
-  justify-content: right;
+.rotatekoros {
+  transform: rotateZ(270deg);
+  /*transform-origin: 20% 40%;*/
+  position: absolute;
+  right: 0vw;
+  top: 10vw;
+}
+
+@media screen and (max-width: 1100px) {
+  .rotatekoros {
+    visibility: hidden;
+  }
 }
