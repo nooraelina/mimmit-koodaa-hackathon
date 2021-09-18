@@ -19,62 +19,35 @@ function Ylapalkki () {
                 '--navigation-row-color': 'var(--color-black-90)',
                 '--navigation-row-focus-outline-color': 'var(--color-coat-of-arms)'
             }}
-            title="Helsinki Digitaidot testiin"
-            titleAriaLabel="Helsinki: Digitaitojen testaus"
-            titleUrl="https://hel.fi"
+            title="Helsinki Digitreeni"
+            titleAriaLabel="Helsinki: Digitreeni"
+            titleUrl="/"
             >
             <Navigation.Row variant='inline'>
                 <Navigation.Item
-                active
+                
                 href="/"
-                label="Link"
+                label="Home"
                 onClick={function noRefCheck(){}}
                 />
                 <Navigation.Item
                 href="/yhteystiedot"
-                label="Link"
+                label="Contact"
                 onClick={function noRefCheck(){}}
                 />
                 <Navigation.Item
                 href="#"
-                label="Link"
+                label="Help"
                 onClick={function noRefCheck(){}}
                 />
-                <Navigation.Item
-                href="#"
-                label="Link"
-                onClick={function noRefCheck(){}}
-                />
-                <Navigation.Dropdown label="Dropdown">
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Link"
-                    onClick={function noRefCheck(){}}
-                />
-                </Navigation.Dropdown>
             </Navigation.Row>
             <Navigation.Actions>
                 <Navigation.Search
                 searchLabel="Search"
-                searchPlaceholder="Search page"
+                searchPlaceholder="Search..."
                 />
                 <Navigation.User
-                label="Sign in"
+                label="Login"
                 userName="John Doe"
                 >
                 <Navigation.Item
@@ -90,7 +63,7 @@ function Ylapalkki () {
                     variant="supplementary"
                 />
                 </Navigation.User>
-                <Navigation.LanguageSelector label="FI">
+                <Navigation.LanguageSelector label="EN">
                 <Navigation.Item
                     href="#"
                     label="Suomeksi"
@@ -107,18 +80,6 @@ function Ylapalkki () {
                     href="#"
                     label="In English"
                     lang="en"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="En français"
-                    lang="fr"
-                    onClick={function noRefCheck(){}}
-                />
-                <Navigation.Item
-                    href="#"
-                    label="Auf deutsch"
-                    lang="de"
                     onClick={function noRefCheck(){}}
                 />
                 <Navigation.Item
